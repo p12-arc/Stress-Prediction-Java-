@@ -20,7 +20,7 @@ public class StressPredictionApplication {
         try {
             new RestTemplate()
                 .getForObject(
-                    "https://stressometer-msrw.onrender.com/ping",
+                    "https://stress-prediction-java.onrender.com/ping",
                     String.class
                 );
             System.out.println("Ping success");
